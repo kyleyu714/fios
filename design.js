@@ -5,8 +5,8 @@ $(document).ready(function(){
     $(this).mouseover(function(){
       
       console.log('mouse over');
-      console.log($(this).children('div div.image-slide-title').html());
-      $(this).children('div div.image-slide-title').show();
+      console.log($(this).find('.image-slide-title').html());
+      $(this).children('image-slide-title').show();
     });
 
   });
