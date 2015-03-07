@@ -6,7 +6,7 @@ $(document).ready(function(){
       
       console.log('mouse over');
       console.log($(this).find('.image-slide-title').html());
-      $(this).children('image-slide-title').show();
+      $(this).find('image-slide-title').show();
     });
 
   });
