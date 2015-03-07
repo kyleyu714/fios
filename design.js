@@ -16,6 +16,10 @@ $(document).ready(function(){
       $(this).find('.image-slide-title').css('height','100%');
             $(this).find('.image-slide-title').css('text-align','center');
       $(this).find('.image-slide-title').css('width','100%');
+            $(this).find('.image-slide-title').css('font-color','black');
+                        $(this).find('.image-slide-title').css('background','rgba(0, 0, 0, 0.6)');
+
+            
 
       
       $(this).find('.image-slide-title').css('position','absolute');
