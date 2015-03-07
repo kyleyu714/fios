@@ -4,20 +4,21 @@ $(document).ready(function(){
 
     $(this).mouseover(function(){
       
-      alert('mouse over');
+      console.log('mouse over');
       
-          $(this).children('.image-slide-title').hide();
-          $(this).children('.image-slide-title').show();
+          $(this).children('div div.image-slide-title').hide();
+          $(this).children('div div.image-slide-title').show();
     });
 
   });
 
-
+/*
   $('.sqs-gallery-design-grid-slide').mouseover(function() {
   
     
-    $('.sqs-gallery-design-grid-slide').children('.image-slide-title').hide();
-    $(this).children('.image-slide-title').show();
+    $('.sqs-gallery-design-grid-slide').children('div div.image-slide-title').hide();
+    $(this).children('div div.image-slide-title').show();
   });
+  */
 
 });
