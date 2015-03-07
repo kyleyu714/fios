@@ -8,7 +8,7 @@ $(document).ready(function(){
       console.log($(this).find('.image-slide-title').html());
       
       
-            $(this).find('.image-slide-title').hide();
+            $('.image-slide-title').hide();
             
       $(this).find('.image-slide-title').css('position','absolute');
       $(this).find('.image-slide-title').css('bottom','-50%');
