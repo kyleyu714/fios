@@ -19,5 +19,4 @@ $(document).ready(function(){
     $(this).children('div div.image-slide-title').show();
   });
   */
-
 });
