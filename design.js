@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
-  $('.design-grid-slide').each(function() {      
+  $('.sqs-gallery-design-grid-slide').each(function() {      
     console.log($(this).html());
 
   });
 
 
-  $('.design-grid-slide').mouseover(function() {      
-    $('.design-grid-slide').children('.hiddenx').hide();
-    $(this).children('.hiddenx').show();
+  $('.sqs-gallery-design-grid-slide').mouseover(function() {      
+    $('.sqs-gallery-design-grid-slide').children('.image-slide-title').hide();
+    $(this).children('.image-slide-title').show();
   });
 
 });
