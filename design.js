@@ -8,7 +8,7 @@ $(document).ready(function(){
             
       $(this).find('.image-slide-title').css('position','absolute');
       $(this).find('.image-slide-title').css('bottom','-50%');
-      $(this).find('.image-slide-title').css('font-size','24px');
+      $(this).find('.image-slide-title').css('font-size','20px');
       $(this).find('.image-slide-title').css('height','100%');
       $(this).find('.image-slide-title').css('text-align','center');
       $(this).find('.image-slide-title').css('width','100%');
